@@ -1,0 +1,37 @@
+1. Maven项目，web支持
+2. 导入相关pom依赖
+3. Maven静态资源过滤设置
+4. 框架的搭建
+5.MyBatis的编写
+	5.1 数据库文件配置
+	5.2 编写MyBatis的核心配置文件
+	5.3 编写数据库对应的实体类
+	5.4 编写Dao层的Mapper接口
+	5.5 编写对应的Mapper.xml文件
+	5.6 编写Service层的接口和实现类
+
+************************  底层编写基本完成  **********************
+
+Spring层 对配置文件进行整合
+1. 配置Spring 整合 MyBatis，使用druid数据源连接池
+2. 编写Spring整合MyBatis 的相关配置文件；spring-dao.xml
+3. Spring整合service层
+
+************************ Spring层对配置文件的整合 ******************
+
+SpringMVC层
+1. web.xml
+2. Spring-MVC.xml
+3. Spring配置整合文件，applicationContext.xml
+配置文件结束、Controller 和 视图层的编写
+5. Controller 类编写，
+6.jsp等前端页面的编写
+
+
+
+set java environment
+JAVA_HOME=/usr/local/java/jdk1.8.0_281       
+JRE_HOME=/usr/local/java/jdk1.8.0_281/jre     
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
