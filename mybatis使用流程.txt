@@ -1,0 +1,12 @@
+1.导入pom依赖: mysql-connector-java (数据库驱动)
+		druid		(数据库连接池)
+		mybatis		()
+		
+2.编写实体类
+3.编写dao层的mapper：接口与Mapper.xml   注意点：namespace绑定接口
+4.编写配置文件：主要用来取别名<typeAliases>
+		配置数据库连接池
+		注册每一个Mapper.xml 
+		(也可配置获取sqlSession实例，也可用java实现)
+
+

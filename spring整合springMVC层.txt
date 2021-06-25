@@ -1,0 +1,14 @@
+SpringMVC层（Controller层，Servlet，与前端页面交互）
+**************************************************************
+1. 配置web.xml
+	1.1 配置DispatcherServlet 
+	1.2 配置乱码字符过滤器
+	1.3 Session 过期时间
+2. 配置spring-mvc.xml
+	2.1 开启SpringMVC 注解驱动
+	2.2 静态资源默认servlet 配置
+	2.3 配置jsp 显示ViewResolver 视图解析器
+	2.4 配置需要开启扫描注解的包
+3. 配置Spring 整合文件
+4. Controller 的编写
+5. 视图层的编写
